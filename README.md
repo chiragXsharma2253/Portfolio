@@ -9,7 +9,7 @@ Personal AI & Software Engineering portfolio website showcasing my featured proj
 ## 🚀 Featured Repositories
 
 1. **[City Pulse](https://github.com/chiragXsharma2253/citypulse)** — AI Mobile Urban Intelligence Platform (SIH 2026).
-2. **[Network Security](https://github.com/chiragXsharma2253/marc1)** — Production ML phishing detection pipeline with MLflow tracking.
+2. **[Marc1](https://github.com/chiragXsharma2253/marc1)** — Production ML phishing detection pipeline with MLflow tracking.
 3. **[Quiz](https://github.com/chiragXsharma2253/Quiz)** — Interactive Code With AI Quiz application.
 4. **[Code Correction](https://github.com/chiragXsharma2253/Code_correction)** — Python student utility suite and RED -> FIX -> GREEN debugging cycle.
 5. **[Factorial Calculator](https://github.com/chiragXsharma2253/Factorial-code)** — Clean Python mathematical implementation and fact-check audit.
