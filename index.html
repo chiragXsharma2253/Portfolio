@@ -237,9 +237,9 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;color
       
       <!-- Panel 1: Chatbot Assistant -->
       <div class="panel">
-        <div class="panel-head">Abhi’s Assistant<span>Answers from this portfolio</span></div>
+        <div class="panel-head">Chirag’s Assistant<span>Answers from this portfolio</span></div>
         <div id="chatMessages" aria-live="polite" aria-label="Chat conversation">
-          <p class="msg bot">Hi! What would you like to know about Abhi’s work and projects?</p>
+          <p class="msg bot">Hi! What would you like to know about chirag’s work and projects?</p>
         </div>
         <div class="prompts" role="group" aria-label="Suggested questions">
           <button type="button" data-prompt="What projects have you built?">Projects</button>
@@ -347,18 +347,18 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;color
       return "You can check real-time weather for any city using the Live Weather Forecaster right next to me! Just enter your city in the input box.";
     }
     if (/project|built|work/.test(q)) {
-      return "Abhi has built 5 core repositories: 1) City Pulse (AI Urban Intelligence platform), 2) Network Security ML pipeline, 3) Code With AI Quiz app, 4) Student Code Correction & Debugging utility, and 5) Factorial Calculator.";
+      return "chirag has built 5 core repositories: 1) City Pulse (AI Urban Intelligence platform), 2) Network Security ML pipeline, 3) Code With AI Quiz app, 4) Student Code Correction & Debugging utility, and 5) Factorial Calculator.";
     }
     if (/tech|skill|stack|language|tool/.test(q)) {
-      return "Abhi's technical stack includes Python, JavaScript, Express.js, Node.js, NumPy, Pandas, MongoDB, SQL, Machine Learning, MLOps (MLflow, DagsHub), and HTML5/CSS3.";
+      return "chirag's technical stack includes Python, JavaScript, Express.js, Node.js, NumPy, Pandas, MongoDB, SQL, Machine Learning, MLOps (MLflow, DagsHub), and HTML5/CSS3.";
     }
     if (/study|background|college|degree|about|student|roll/.test(q)) {
-      return "Abhi is a Computer Science and Engineering student (Roll No: 25BCON0782) specializing in Artificial Intelligence and Machine Learning.";
+      return "chirag is a Computer Science and Engineering student (Roll No: 25BCON0782) specializing in Artificial Intelligence and Machine Learning.";
     }
     if (/github|contact|repo|link/.test(q)) {
-      return "All of Abhi's code and repositories are available at github.com/chiragXsharma2253.";
+      return "All of chirag's code and repositories are available at github.com/chiragXsharma2253.";
     }
-    return "I can answer questions regarding Abhi’s projects, tech stack, academic background, or GitHub repositories. You can also check the weather forecaster next to me!";
+    return "I can answer questions regarding chirag’s projects, tech stack, academic background, or GitHub repositories. You can also check the weather forecaster next to me!";
   }
   function ask(text) {
     add(text, "me");
